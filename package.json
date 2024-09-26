@@ -4,7 +4,7 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "lint": "eslint --ext .js,.jsx resources/js",
+        "lint": "eslint resources/js/**/*.js resources/js/**/*.jsx",
         "format": "prettier --write \"resources/js/**/*.{js,jsx}\""
     },
     "devDependencies": {
